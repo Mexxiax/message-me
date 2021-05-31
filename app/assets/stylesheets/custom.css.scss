@@ -1,1 +1,14 @@
 @import "semantic-ui";
+
+.chatbox {
+  height: 285px;
+}
+
+.left-menu-chatbox {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.left-menu-chatbox-padding {
+  padding: 0 !important;
+}
