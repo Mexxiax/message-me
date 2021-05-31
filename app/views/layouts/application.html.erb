@@ -2,14 +2,13 @@
 <html>
   <head>
     <title>MessageMe</title>
+    <%= favicon_link_tag %>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  
   <body>
     <%= render 'layouts/nav' %>
     <div class="ui container">
