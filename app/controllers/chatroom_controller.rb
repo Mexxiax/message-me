@@ -1,5 +1,7 @@
 class ChatroomController < ApplicationController
 
-  def index; end
+  def index 
+    @messages = Message.last(10)
+  end
 
 end
