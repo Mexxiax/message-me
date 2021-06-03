@@ -3,7 +3,7 @@ class ChatroomController < ApplicationController
 
   def index 
     @message = Message.new
-    @messages = Message.last(500)
+    @messages = Message.custom_display
   end
 
 end
