@@ -12,3 +12,8 @@
 .left-menu-chatbox-padding {
   padding: 0 !important;
 }
+
+#messages {
+  height: 15em;
+  overflow: auto;
+}
